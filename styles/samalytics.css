@@ -39,14 +39,14 @@ th:first-child .dataTable-sorter { padding-right: 0; padding-left: 20px; text-al
 #colls_chart, #resources_chart { display: block; max-width: 420px; height: 200px; margin: 16px auto 0; }
 
 #wallet_stats form { margin-top: 16px; text-align: center; }
-#wallet_stats fieldset { max-width: 520px; margin: auto; border-radius: 8px; border-color: #251e38; padding: 16px 0; }
-#wallet_stats legend { margin-left: 16px; font-size: 12px; color: #fff; }
+#wallet_stats fieldset { max-width: 520px; margin: auto; border: 1px solid #251e38; border-radius: 8px; padding: 16px 0; }
+#wallet_stats legend { margin-left: 16px; font-size: 12px; color: #fff; text-align: left; }
 #wallet_stats input { padding: 4px; background: #251e38; border: 1px solid #251e38; border-radius: 4px; color: #fff; font-family: monospace; }
 #wallet_stats input::placeholder { color: #fff8; }
 #wallet_stats input:focus, #wallet_stats button:focus { outline: 0; }
 #wallet_stats input:valid { border-color: #0a0; }
 #wallet_stats input.interacted:invalid { border-color: #a00; }
-#wallet_stats button { padding: 4px 8px; background: #0a08; border: 1px solid #0a02; border-radius: 4px; color: #fff; }
+#wallet_stats button { padding: 4px 8px; background: #0a08; border: 1px solid #0a02; border-radius: 4px; color: #fff; line-height: 1; }
 
 #holdings_total { padding: 0 10px; text-align: right; color: #fff8; }
 #holdings_total span { font-weight: bold; color: #0f0; }
