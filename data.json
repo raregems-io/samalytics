@@ -1,0 +1,256 @@
+{
+
+    "chains": {
+        "1": {
+            "name": "Ethereum",
+            "token": "ETH",
+            "endpoint": "https://rpc.flashbots.net",
+            "block_explorer": "https://etherscan.io",
+            "moonsama_api_ident": "ETH_MAINNET"
+        },
+        "1284": {
+            "name": "Moonbeam",
+            "token": "GLMR",
+            "endpoint": "https://rpc.api.moonbeam.network",
+            "block_explorer": "https://moonscan.io",
+            "moonsama_api_ident": "MOONBEAM"
+        },
+        "1285": {
+            "name": "Moonriver",
+            "token": "MOVR",
+            "endpoint": "https://rpc.api.moonriver.moonbeam.network",
+            "block_explorer": "https://moonriver.moonscan.io",
+            "moonsama_api_ident": "MOONRIVER"
+        }
+    },
+
+    "bridges": {
+        "Ethereum": {
+            "icon": "🔹",
+            "chain": 1,
+            "addr": "0xbC0d0c5E67fC0d7834a0e3B8Acf741d1F5b78ca5"
+        },
+        "Moonbeam": {
+            "icon": "✨",
+            "chain": 1284,
+            "addr": "0x6D73E2920A92931be76F487a2E29F67b4D7858F9"
+        },
+        "Moonriver": {
+            "icon": "🌗",
+            "chain": 1285,
+            "addr": "0x59c481548ce7ba13f3288df9f4fcf44a10a589a0"
+        }
+    },
+
+    "tokens": {
+        "POOP": {
+            "icon": "💩",
+            "chain": 1284,
+            "addr": "0xFFfffFFecB45aFD30a637967995394Cc88C0c194"
+        }
+    },
+
+    "collections": [
+        {
+            "name": "Moonsama",
+            "icon": "🦚",
+            "chain": 1285,
+            "addr": "0xb654611F84A8dc429BA3cb4FDA9Fad236C505a1a",
+            "std": "ERC721",
+            "moonsama_api_ident": "MOONSAMA"
+        },
+        {
+            "name": "Exosama",
+            "icon": "🦾",
+            "chain": 1,
+            "addr": "0xAc5C7493036dE60e63eb81C5e9A440b42f47ebF5",
+            "std": "ERC721",
+            "moonsama_api_ident": "EXOSAMA",
+            "opensea_slug": "exosama-expect-chaos"
+        },
+        {
+            "name": "Gromlins",
+            "icon": "🧌",
+            "chain": 1284,
+            "addr": "0xF27A6C72398eb7E25543d19fda370b7083474735",
+            "std": "ERC721",
+            "moonsama_api_ident": "GROMLIN"
+        },
+        {
+            "name": "Pondsama",
+            "icon": "🐡",
+            "chain": 1285,
+            "addr": "0xe4EDCAaEA73684b310fc206405ee80abCEc73EE0",
+            "std": "ERC721",
+            "moonsama_api_ident": "PONDSAMA"
+        },
+        {
+            "name": "Vip Ticket",
+            "icon": "🎫",
+            "chain": 1285,
+            "addr": "0x1974eEAF317Ecf792ff307F25A3521C35eECde86",
+            "std": "ERC1155",
+            "token_id": 1
+        }
+    ],
+
+    "resources": [
+        {
+            "name": "Awood",
+            "icon": "🪵",
+            "chain": 1285,
+            "id": 1,
+            "ERC20_addr": "0x8cE2BDc6e0319cea87337d027382f09B715C9601"
+        },
+        {
+            "name": "Astone",
+            "icon": "🪨",
+            "chain": 1285,
+            "id": 2,
+            "ERC20_addr": "0x77709C42d43F2e53c24b8fA623A207abDC89857c"
+        },
+        {
+            "name": "Airon",
+            "icon": "🪙",
+            "chain": 1285,
+            "id": 3,
+            "ERC20_addr": "0x9E403aA2DFEF9BA2a2b82286D13864A64D90BF36"
+        },
+        {
+            "name": "Agold",
+            "icon": "⚱️",
+            "chain": 1285,
+            "id": 4,
+            "ERC20_addr": "0x088Fe6e0e1CaCA1eE45E8DE96AbE79e4e139F4Ab"
+        },
+        {
+            "name": "Aexp",
+            "icon": "🧪",
+            "chain": 1285,
+            "id": 5,
+            "ERC20_addr": "0x138a90f246Abb23A157DA7a1D9dB19dCf1691362"
+        },
+        {
+            "name": "bullets",
+            "icon": "",
+            "chain": 1285,
+            "id": 6,
+            "ERC20_addr": ""
+        },
+        {
+            "name": "grenades",
+            "icon": "",
+            "chain": 1285,
+            "id": 7,
+            "ERC20_addr": ""
+        },
+        {
+            "name": "shampoo",
+            "icon": "🧴",
+            "chain": 1285,
+            "id": 8,
+            "ERC20_addr": ""
+        },
+        {
+            "name": "snacks",
+            "icon": "🥨",
+            "chain": 1285,
+            "id": 9,
+            "ERC20_addr": ""
+        },
+        {
+            "name": "Agrain",
+            "icon": "🌾",
+            "chain": 1285,
+            "id": 10,
+            "ERC20_addr": "0xF93e1D54C939eCA89240ff3a4311A490306f0E2D"
+        },
+        {
+            "name": "Astring",
+            "icon": "🧵",
+            "chain": 1285,
+            "id": 12,
+            "ERC20_addr": "0x0c0e3977C00aB4121D52AC8C6aEeF9421d174458"
+        },
+        {
+            "name": "Afish",
+            "icon": "🐟",
+            "chain": 1285,
+            "id": 13,
+            "ERC20_addr": "0xA42c342bc0a9d9E64eE3C552eA8991b06A2FdbB5"
+        },
+        {
+            "name": "Abait",
+            "icon": "🥐",
+            "chain": 1285,
+            "id": 14,
+            "ERC20_addr": "0x96ae34020803Cdee1Aa4969076627AA473795EE7"
+        },
+        {
+            "name": "Apoop",
+            "icon": "💩",
+            "chain": 1285,
+            "id": 15,
+            "ERC20_addr": ""
+        },
+        {
+            "name": "Amoonstone",
+            "icon": "💎",
+            "chain": 1285,
+            "id": 16,
+            "ERC20_addr": "0xbe0b5B87ceB3EB1B05D11dc83332409291b35746"
+        }
+    ],
+
+    "abi": {
+        "ERC165": [
+            "function supportsInterface(bytes4 interface_id) view returns (bool)"
+        ],
+        "ERC20": [
+            "function name() view returns (string)",
+            "function symbol() view returns (string)",
+            "function decimals() view returns (uint8)",
+            "function totalSupply() view returns (uint)",
+            "function balanceOf(address) view returns (uint)",
+            "function approve(address spender, uint value) returns (bool)",
+            "function allowance(address owner, address spender) view returns (uint)",
+            "function transfer(address to, uint256 value) returns (bool)",
+            "function transferFrom(address from, address to, uint value) returns (bool)",
+            "event Approval(address indexed owner, address indexed spender, uint256 value)",
+            "event Transfer(address indexed from, address indexed to, uint256 value)"
+        ],
+        "ERC721": [
+            "function balanceOf(address owner) view returns (uint)",
+            "function ownerOf(uint token_id) view returns (address)",
+            "function safeTransferFrom(address from, address to, uint token_id) payable",
+            "function transferFrom(address from, address to, uint token_id) payable",
+            "function approve(address approved, uint token_id) payable",
+            "function getApproved(uint token_id) view returns (address)",
+            "function setApprovalForAll(address operator, bool approved)",
+            "function isApprovedForAll(address owner, address operator) view returns (bool)",
+            "function totalSupply() view returns (uint)",
+            "function tokenByIndex(uint index) view returns (uint)",
+            "function tokenOfOwnerByIndex(address owner, uint index) view returns (uint)",
+            "function tokenURI(uint token_id) view returns (string)",
+            "event Transfer(address indexed from, address indexed to, uint indexed token_id)",
+            "event Approval(address indexed owner, address indexed approved, uint indexed token_id)",
+            "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)"
+        ],
+        "ERC1155": [
+            "function balanceOf(address owner, uint id) view returns (uint)",
+            "function balanceOfBatch(address[] calldata owners, uint[] calldata ids) view returns (uint[] memory)",
+            "function setApprovalForAll(address operator, bool approved)",
+            "function isApprovedForAll(address owner, address operator) view returns (bool)",
+            "function safeTransferFrom(address from, address to, uint id, uint value, bytes calldata data)",
+            "function safeBatchTransferFrom(address from, address to, uint[] calldata ids, uint[] calldata values, bytes calldata data)",
+            "function uri(uint id) view returns (string)",
+            "function contractURI() view returns (string)",
+            "function totalSupply(uint) view returns (uint)",
+            "event TransferSingle(address indexed operator, address indexed from, address indexed to, uint id, uint value)",
+            "event TransferBatch(address indexed operator, address indexed from, address indexed to, uint[] ids, uint[] values)",
+            "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+            "event URI(string value, uint indexed id)"
+        ]
+    }
+
+}

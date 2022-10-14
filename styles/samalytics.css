@@ -1,0 +1,67 @@
+html, body { margin: 0; padding: 0; font-family: monospace, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
+html, body { background: #110e19; color: #fff; }
+body { overflow-y: scroll; scrollbar-gutter: stable both-sides; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body.noscroll { overflow: hidden; }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+h2 { margin: 64px 0 0 -32px; text-transform: uppercase; letter-spacing: 2px; color: #fff; font-size: 32px; }
+
+main { max-width: 800px; margin: auto; }
+
+#poop_stats { margin: 64px 0; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+#poop_stats > div { padding: 16px 32px; text-align: center; background-image: linear-gradient(180deg, #110e19 16%, #251e38); border-radius: 8px; font-size: 12px; }
+#poop_stats .val { font-weight: bold; font-size: 20px; }
+#poop_stats ._24h_change .val { color: #82c91e; }
+#poop_stats ._24h_change .neg { color: #fa5252; }
+
+th, td { text-align: right; }
+th:first-child, td:first-child { text-align: left; }
+
+.dataTable-sorter { padding-right: 20px; text-align: right; }
+.dataTable-sorter::before, .dataTable-sorter::after { right: 0; }
+
+th:first-child .dataTable-sorter::before, th:first-child .dataTable-sorter::after {
+    right: auto; left: 4px;
+}
+
+th:first-child .dataTable-sorter { padding-right: 0; padding-left: 20px; text-align: left; }
+
+.dataTable-table > thead > tr > th, .dataTable-wrapper.no-footer .dataTable-container { border-color: #251e38; }
+.dataTable-sorter::before { border-top-color: #fffd; }
+.dataTable-sorter::after { border-bottom-color: #fffd; }
+.asc .dataTable-sorter::after, .desc .dataTable-sorter::before {
+    opacity: 1;
+}
+
+#carnage_players_chart { display: block; width: 100%; height: 420px; margin: 32px auto 32px; }
+#colls_chart, #resources_chart { display: block; max-width: 420px; height: 200px; margin: 16px auto 0; }
+
+#wallet_stats form { margin-top: 16px; text-align: center; }
+#wallet_stats fieldset { max-width: 520px; margin: auto; border-radius: 8px; border-color: #251e38; padding: 16px 0; }
+#wallet_stats legend { margin-left: 16px; font-size: 12px; color: #fff; }
+#wallet_stats input { padding: 4px; background: #251e38; border: 1px solid #251e38; border-radius: 4px; color: #fff; font-family: monospace; }
+#wallet_stats input::placeholder { color: #fff8; }
+#wallet_stats input:focus, #wallet_stats button:focus { outline: 0; }
+#wallet_stats input:valid { border-color: #0a0; }
+#wallet_stats input.interacted:invalid { border-color: #a00; }
+#wallet_stats button { padding: 4px 8px; background: #0a08; border: 1px solid #0a02; border-radius: 4px; color: #fff; }
+
+#holdings_total { padding: 0 10px; text-align: right; color: #fff8; }
+#holdings_total span { font-weight: bold; color: #0f0; }
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.loading { position: relative; cursor: wait; }
+.loading > *:not(.loading_msg) { pointer-events: none; opacity: 0.2; }
+.loading::after { content: ''; position: absolute; z-index: 1; top: 50%; left: 50%; width: 32px; height: 32px; margin: -19px 0 0 -19px; border: 3px solid #0a0; border-radius: 50%; border-right-color: transparent !important; animation: spin 0.5s linear infinite; }
+.loading.small::after { width: 16px; height: 16px; margin: -8px 0 0 -8px; border-width: 2px; }
+
+@media (max-width: 880px) {
+    main { padding: 0 16px; }
+    h2 { margin-left: 0; }
+    #poop_stats { justify-content: center; }
+}
