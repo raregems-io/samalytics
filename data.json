@@ -132,31 +132,31 @@
         },
         {
             "name": "bullets",
-            "icon": "",
+            "icon": "🚅",
             "chain": 1285,
             "id": 6,
-            "ERC20_addr": ""
+            "ERC20_addr": "0x43dd3267e5a5737e6436cDA7AC93E9fF155A36e4"
         },
         {
             "name": "grenades",
-            "icon": "",
+            "icon": "💣",
             "chain": 1285,
             "id": 7,
-            "ERC20_addr": ""
+            "ERC20_addr": "0x69C78473bF164876E503937f5b853B289E2Aeb95"
         },
         {
             "name": "shampoo",
             "icon": "🧴",
             "chain": 1285,
             "id": 8,
-            "ERC20_addr": ""
+            "ERC20_addr": "0xD94b75617f756561294695f87d530b25aaED6204"
         },
         {
             "name": "snacks",
             "icon": "🥨",
             "chain": 1285,
             "id": 9,
-            "ERC20_addr": ""
+            "ERC20_addr": "0x20cA4c5E273E38676dAEaCf0FD6662BF6839159d"
         },
         {
             "name": "Agrain",
